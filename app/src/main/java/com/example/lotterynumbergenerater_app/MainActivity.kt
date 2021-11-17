@@ -103,8 +103,8 @@ class MainActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            if(pickNumberSet.size >= 5) {
-                Toast.makeText(this, "번호는 5개까지만 입력가능합니다.", Toast.LENGTH_SHORT).show()
+            if(pickNumberSet.size >= 6) {
+                Toast.makeText(this, "번호는 6개까지만 입력가능합니다.", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
